@@ -1,0 +1,155 @@
+li {
+    cursor: pointer;
+    position: relative;
+}
+
+ul { 
+    list-style-type: none; 
+} 
+ol { 
+    list-style-type: none; 
+} 
+
+table.dataTable tbody td { 
+    padding: 0px; 
+    font-stretch: ultra-condensed; 
+}
+table.dataTable thead td { 
+    font-stretch: ultra-condensed; 
+}
+
+.time-selector { 
+    margin: 0; 
+    padding: 0; 
+    float: left;
+    position: relative; 
+    left: 20%; 
+    right: 20%;
+}
+.time-selector .ui-selectee { 
+    border: 2px solid #d6dee0;
+}
+.time-selector .ui-selecting { 
+    background: #FECA40; 
+}
+.time-selector .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+.time-selector li { 
+    margin: 0px; 
+    padding: 0em; 
+    font-size: 0.9em; 
+    height: 20px; 
+    width: 50px; 
+    font-stretch: ultra-condensed;
+}
+
+.movie-image { 
+    height: 150px; 
+    width: auto; 
+}
+
+.movie-title { 
+    display: grid; 
+    margin: 5px; 
+    width: 200px; 
+}
+.movie-title text{
+    display: block; 
+    font-size: 0.8em;
+    height: 100%; 
+    font-stretch: ultra-condensed; 
+    overflow-y: scroll;
+    scrollbar-width: thin; 
+}
+.movie-title label{ 
+    height: auto; 
+    border: 2px solid #d6dee0; 
+    font-stretch: ultra-condensed; 
+    font-size-adjust: inherit; 
+    font-size: 0.9em;
+}
+
+.movie-time-selection { 
+    border: 2px solid #d6dee0; 
+    border-right: 0; 
+    border-bottom: 0;  
+    width: 50px; 
+    text-align: center;
+}
+.movie-time-selection ol .show-cancel { 
+    background: #847b6bb8 
+}
+
+#movie-table tbody tr{ 
+    width:60px; 
+}
+
+#tickets-amount-button{ 
+    width: 5em;
+}
+.tickets-amount-overflow { 
+    height: 100px; width: 4em;
+}
+
+#tickets-name { 
+    width: 300px;
+}
+
+#seats-grid ol{ 
+    display: flex; 
+    margin:0px; 
+}
+#seats-grid ol li img{ 
+    pointer-events: none; 
+}
+#seats-grid ol .ui-selectee ,
+#seats-grid ol .ui-selectee img { 
+    background: #fff3d2; 
+    border: 2px solid #ffe1a9;
+}
+#seats-grid ol .ui-selecting ,
+#seats-grid ol .ui-selecting img { 
+    background: #FECA40; 
+}
+#seats-grid ol .ui-selected ,
+#seats-grid ol .ui-selected img { 
+    background: #F39814; 
+    color: white; 
+}
+#seats-grid ol .seat-cancel ,
+#seats-grid ol .seat-cancel img { 
+    background: #f9d593; 
+    pointer-events: none; 
+}
+#seats-grid ol .marking { 
+    background: #bb7c05; 
+    color: white; 
+    text-align: center; 
+    font-weight: bold;  
+}
+#seats-grid ol li{ 
+    float: left; 
+    width:20px; 
+    height:20px;
+    border: 2px solid #d6dee0; 
+}
+
+#movie-accordion h3{ 
+    pointer-events: none; 
+}
+
+#billing-table tfoot tr { 
+    height: 1em; 
+}
+#billing-table .movie-image{ 
+    height: 80px; 
+    width: auto; 
+}
+.billing-picture { 
+    width: inherit;
+}
+.ui-selectable-helper { 
+    display:none 
+}
